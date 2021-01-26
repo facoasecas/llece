@@ -1,0 +1,68 @@
+:root {
+  --bs-blue: #007AD4 !important;
+  --bs-font-sans-serif: "Open Sans","Helvetica Neue", Arial, sans-serif;
+}
+
+.bg-unesco{
+background:var(--bs-blue);
+}
+
+.color-unesco{
+	color:var(--bs-blue);
+}
+
+body {
+	font-weight: 400;
+  min-height: 75rem;
+	  padding-top: 22vh;
+}
+
+@media (min-width: 992px) { 
+
+	body {
+	  padding-top: 14vh;
+	}
+}
+
+h1{
+	font-weight: 600;
+
+}
+
+.navbar-brand{
+	letter-spacing: 0.15rem;
+}
+
+h2{
+	font-weight: 400;
+}
+
+.navbar{
+	box-shadow: inset 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu{
+	border:none;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+	margin-left:-0.5rem;
+	margin-top:0;
+}
+
+@media (max-width: 992px) { 
+
+.dropdown-menu{
+	margin-left:-1rem;
+
+}
+
+}
+
+svg g, svg circle{
+	fill:#bbb;
+}
+
+svg g:nth-child(4){
+	fill:#007AD4;
+}
+
+
