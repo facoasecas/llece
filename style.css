@@ -66,3 +66,20 @@ svg g {
 svg g:nth-child(4) {
     fill: #007ad4;
 }
+
+svg.indices g:hover{
+ cursor: pointer;   
+}
+
+svg.indices g text{
+    display:none;
+}
+
+
+svg.indices g:hover circle{
+    fill: #bbb;    
+}
+
+svg.indices g:hover text{
+    display:inherit;
+}
