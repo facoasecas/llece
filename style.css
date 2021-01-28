@@ -59,8 +59,7 @@ h2 {
     }
 }
 
-svg g,
-svg circle {
+svg g {
     fill: #bbb;
 }
 
